@@ -2,11 +2,11 @@ body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f9f9f9;
-  background-image: url("/image/logo-java.png"); /* ← bakgrundsbild */
+  background-image: url("/image/logo-java.png"); /* ✅ rätt sökväg */
   background-size: cover;       /* täcker hela skärmen */
   background-position: center;  /* centrerar bilden */
   background-repeat: no-repeat; /* ingen upprepning */
-  background-attachment: fixed; /* bilden stannar när du scrollar */
+  background-attachment: fixed; /* bakgrunden stannar när man scrollar */
   color: #333;
   line-height: 1.6;
 }
@@ -46,7 +46,7 @@ a:hover {
 }
 
 section {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.9); /* lite genomskinlig för att bakgrunden ska synas */
   padding: 1.5rem;
   margin: 1.5rem 0;
   border-radius: 8px;
