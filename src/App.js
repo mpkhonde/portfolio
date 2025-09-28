@@ -5,9 +5,10 @@ function App() {
     <div 
       className="container"
       style={{
-        backgroundImage: "url('image/logo-java.png')",
+        backgroundImage: "url('/image/logo-java.png')", // <-- fix här!
         backgroundSize: "cover",
         backgroundPosition: "center",
+        backgroundAttachment: "fixed", // valfritt, för "parallax"-effekt
         minHeight: "100vh",
         color: "white",
         padding: "20px"
