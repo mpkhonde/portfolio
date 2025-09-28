@@ -82,7 +82,7 @@ function App() {
           </a>
           <br />
           LinkedIn:{" "}
-          <a href="https://linkedin.com/in/dittkonto" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank" rel="noreferrer">
             linkedin.com/in/dittkonto
           </a>
         </p>
