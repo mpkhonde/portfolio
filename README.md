@@ -5,7 +5,7 @@ Syftet var att presentera mig själv, mina projekt och mina färdigheter på ett
 
 ---
 
-## 🚀 Om mig
+## Om mig
 
 Hej! Jag heter **Moise** och studerar **Java** på STI.  
 Jag brinner för **backendutveckling** – där jag får arbeta med logik, databashantering och API:er.  
@@ -44,7 +44,7 @@ Mitt mål är att växa inom **backend, DevOps och molnteknik**.
 
 ---
 
-## 📂 Projekt
+## Projekt
 
 ### [Todo Service](https://github.com/mpkhonde/todo-service)
 Ett REST API för att hantera uppgifter, där jag tränade på backend-logik och datalagring.
@@ -57,14 +57,30 @@ Frontend-projekt där jag tränade på CSS och strukturering av webbsidor.
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
-👉 Portfolio hostat på **Azure Static Web Apps**:  
+Portfolio hostat på **Azure Static Web Apps**:  
 [**Se sidan live här**](https://gray-pebble-08e810d1e.1.azurestaticapps.net)
 
 ---
 
-## 📦 Installation & kör lokalt
+## Screenshots
+
+### GitHub Actions – CI/CD workflow
+![GitHub Actions](docs/github-actions.png)
+
+### Azure Portal – resursgrupp och statisk webbapp
+![Azure Portal](docs/azure-portal.png)
+
+### Azure App – detaljer om deployment
+![Azure App](docs/azure-app.png)
+
+### Portfolio – live version
+![Portfolio Live](docs/portfolio-live.png)
+
+---
+
+## Installation & kör lokalt
 
 Klona repo och installera beroenden:
 
@@ -72,3 +88,4 @@ Klona repo och installera beroenden:
 git clone https://github.com/mpkhonde/portfolio.git
 cd portfolio
 npm install
+npm start
