@@ -1,4 +1,4 @@
-# 🌐 Moise Portfolio – Azure Deployment Lab
+# Moise Portfolio – Azure Deployment Lab
 
 Detta projekt är en del av **Portfolio Deployment Lab** på STI.  
 Målet var att skapa en personlig portfolio med **React**, och sedan deploya den till **Azure Static Web Apps**.
