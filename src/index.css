@@ -5,9 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /* Bakgrund */
+  background: url('./image/logo-java.png') no-repeat center center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white; /* så att texten syns */
 }

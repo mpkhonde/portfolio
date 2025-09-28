@@ -147,3 +147,30 @@ footer {
   color: #90caf9;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* 🔥 Bakgrundsbild */
+  background: url('./image/logo-java.png') no-repeat center center fixed;
+  background-size: cover;
+  color: white; /* så texten alltid syns */
+}
+
+.hero {
+  background: rgba(255, 255, 255, 0.15); /* lite ljusare */
+  backdrop-filter: blur(15px);
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  max-width: 800px;
+  margin: 2rem auto;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
